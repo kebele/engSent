@@ -6,7 +6,7 @@ let card = document.querySelector('.card');
 
 let dizi = [
     {eng : "How many times do you brush your teeth?", tur: "Dişlerini kaç kere fırçalarsın?"},
-    {eng : "Can you drive a car?", tur: "Araba sürebilir misin?"},
+    {eng : "Can you drive a car?", tur: "Araba sürebilir misin?", seviye: "1"},
     {eng : "Where do you live?", tur: "Nerede yaşıyorsun?"},
     {eng : "What about you?", tur: "Ya senden naber?"},
     {eng : "Why not!", tur: "Neden olmasın?"},    
@@ -156,6 +156,36 @@ let dizi = [
 {eng : "	Bana söylediğin sözleri annem duyduğunda ne der biliyor musun ?	", tur: "		"},
 {eng : "	Seni ilgilendirmeyen konulara dahil olman hiç hoş değil.	", tur: "		"},
 {eng : "	Organizasyonun sürecinden ziyade görevlilerin suçunun belirtilmesi gerekiyor.	", tur: "		"},
+    
+    
+    {eng : "	Biz şu an ırak kenarındayız.	", tur: "	We are at the edge of the river now (right now.	", 	seviye: "	1	"},
+{eng : "	Akıllı bir adam değildir.	", tur: "	He is not a smartman.	", 	seviye: "	1	"},
+{eng : "	Neden hala buradasın.	", tur: "	Why are you still here?	", 	seviye: "	1	"},
+{eng : "	Bu yemekler çok lezzetli ve ucuz.	", tur: "	These dishes are very delicious(tasty) and cheap.	", 	seviye: "	1	"},
+{eng : "	Aşk insanlar için paha biçilmezdir.	", tur: "	The love is priceless(invaluable, inestimable) for people.	", 	seviye: "	1	"},
+{eng : "	Aşk sadece insanlar için paha biçilmez değildir.	", tur: "	The love is not only priceless for people.	", 	seviye: "	1	"},
+{eng : "	Aşk sadece insanlar için paha biçilmez değildir. Aynı zamanda hayvanlar içinde değerlidir.	", tur: "	The love is not only priceless for people but also it is valuable for animals.	", 	seviye: "	1	"},
+{eng : "	Salı günü eve uğramam.	", tur: "	I don't come home on Tuesday.	", 	seviye: "	2	"},
+{eng : "	Bütün işyerleri genellikle gece saat 12'de kapanır.	", tur: "	All work places close at 12 o'clock at night.	", 	seviye: "	2	"},
+{eng : "	İnsanlar ellerini yıkamak için sabun kullanır.	", tur: "	The people use the soap to wash their hands.	", 	seviye: "	2	"},
+{eng : "	Öğretmeni dinlemek yerine dışarı çıktı.	", tur: "	She went out instead of listening to teacher. (listen to alır)	", 	seviye: "	2	"},
+{eng : "	Seni görmeme rağmen bana bakmadın.	", tur: "	Even though I saw you, you didn't look at me. (look at alır)	", 	seviye: "	3	"},
+{eng : "	Özellikle düşüncelerine bayıldım.	", tur: "	I especially liked your thoughts.	", 	seviye: "	3	"},
+{eng : "	Eve geldiğinde seni bekliyor olacağım.	", tur: "	When you come home, I will be waiting for you. (wait for alır) 	", 	seviye: "	3	"},
+{eng : "	Bütün belgeler hazırlandı. Yarın sözleşme imzalanacak.	", tur: "	All documents were prepared. The contract is going to be signed tomorrow.	", 	seviye: "	3	"},
+{eng : "	Bisiklet ile giderek en büyük hatayı yaptın.	", tur: "	You made the biggest mistake by going on a bike.	", 	seviye: "	3	"},
+{eng : "	Vücudun çok su kaybetti, bu yüzden sürekli hasta oldun.	", tur: "	Your body lost much water, so (so that) you became ill all the time.	", 	seviye: "	3	"},
+{eng : "	Geminin bozulan parçası için yeni bir sipariş verildi.	", tur: "	A new one was ordered for the damaged part of the ship.	", 	seviye: "	3	"},
+{eng : "	Şu ana kadar fazla hata yapıldığındna dolayı kimse sorumluluk almıyor.	", tur: "	Nobody takes responsibility because more mistakes have been made so far.	", 	seviye: "	3	"},
+{eng : "	Tüm çalışanlar odaya girerken, müdür ayakta duruyordu.	", tur: "	While all employees were entering the room, the manager was standing up. 	", 	seviye: "	3	"},
+{eng : "	Adamın bankaya girmesiyle çıkması bir oldu. Kimse bir şey anlamadı.	", tur: "	The man scarcely went into the bank, when he came out. Anybody didn't understand anything.	", 	seviye: "	3	"},
+{eng : "	Kötü olarak tanımlanan bazı şeyler diğer insanlara göre iyi olabilir.	", tur: "	Some things that (which) are defined badly may be better than the other people.	", 	seviye: "	4	"},
+{eng : "	Bir fabrikada tüm süreçlerin başladığı nokta üretim olarak tanımlanır.	", tur: "	The point where all processes start at a factory is defined as production.	", 	seviye: "	4	"},
+{eng : "	Bir problemi çözmenin en temel yolu onun kaynağını tahmin etmektir.	", tur: "	The most fundamental way to solve a problem is to forecast the source of it.	", 	seviye: "	4	"},
+{eng : "	Sesin düzeyini ayarlayan adamı göre Ayşe bir anda ayağa kalktı.	", tur: "	Ayşe who saw the man that adjusted the level of volume stood up suddenly.	", 	seviye: "	5	"},
+{eng : "	Siz hiç insan yiyen timsah gördünüz mü? Ben hayatım boyunca görmedim.	", tur: "	Have you ever seen the crocodile that eats the human? I have not seen in my life.	", 	seviye: "	5	"},
+{eng : "	Sinema oyuncuları sahneye gelir gelmez herkes onları alkışlamaya başladı.	", tur: "	As soon as the movie players came on the stage, everyone started to clap.	", 	seviye: "	5	"},
+{eng : "	Kız kardeşin iki gün önce İstanbuldaydı.	", tur: "	Your sister was in Istanbul two days ago.	", 	seviye: "	1	"},
 	]
 
 
