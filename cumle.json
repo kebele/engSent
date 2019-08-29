@@ -1,0 +1,14 @@
+[
+    {"eng":"How many times do you brush your teeth?", "tur":"Dişlerini kaç kere fırçalarsın?"},
+    {"eng":"Can you drive a car?",
+    "tur":"Araba sürebilir misin?"},
+    {"eng":"Where do you live?",
+    "tur":"Nerede yaşıyorsun?"},
+    {"eng":"Where do you live?",
+    "tur":"Nerede yaşıyorsun?"},
+    {"eng":"Why not!",
+    "tur":"Neden olmasın?"},
+    {"eng":"What's up!",
+    "tur":"Naber",
+        "ans1":"All is well","ans2":"so so"}
+]
