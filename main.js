@@ -194,7 +194,10 @@ for(x of dizi){
 	cevir.innerHTML += `
 	<div class="scene scene--card" onclick="cardCevir()">
 			<div class="card">
-				<div class="card__face card__face--front eng">${x["eng"]}</div>
+				<div class="card__face card__face--front eng">${x["eng"]}	
+					<button class="buton">remove</button>
+					<button class="buton">star</button>				
+				</div>
 				<div class="card__face card__face--back tur">${x["tur"]}</div>
 			</div>
 		</div>`;
